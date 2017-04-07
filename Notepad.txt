@@ -6,3 +6,4 @@
 
 
 Jenkins>java -jar jenkins.war --httpPort=1983
+jenkins ready
