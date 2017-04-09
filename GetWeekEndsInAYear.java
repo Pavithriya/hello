@@ -44,7 +44,7 @@ public class GetWeekEndsInAYear {
 	public void displayWeekends(){
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		for(int i = 0; i < weekendList.size(); i++){
-			System.out.println("WEEKEND: " + sdf.format((Date)weekendList.get(i)));
+			System.out.println("WEEKEND -------->: " + sdf.format((Date)weekendList.get(i)));
 		}
 	}
 
